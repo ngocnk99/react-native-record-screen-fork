@@ -1,6 +1,6 @@
 [![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://stand-with-ukraine.pp.ua)
 
-# react-native-record-screen
+# react-native-record-screen-fork
 
 A screen record module for React Native.
 
@@ -15,7 +15,7 @@ A screen record module for React Native.
 ## Installation
 
 ```sh
-npm install react-native-record-screen
+npm install react-native-record-screen-fork
 ```
 
 ### iOS
@@ -56,7 +56,7 @@ npx pod-install
 ### Recording full screen
 
 ```js
-import RecordScreen, { RecordingResult } from 'react-native-record-screen';
+import RecordScreen, { RecordingResult } from 'react-native-record-screen-fork';
 
 // recording start
 const res = RecordScreen.startRecording().catch((error) => console.error(error));
